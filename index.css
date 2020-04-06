@@ -1,7 +1,7 @@
 .keyboard_inner {
   padding: 20px;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: calc(50% - 550px);
   display: grid;
   grid-gap: 14px;
@@ -67,7 +67,7 @@ body {
 
 .keyboard_subTitel {
   position: absolute;
-  top: 33%;
+  top: 38%;
   margin-top: 0;
   left: calc(50% - 200px);
   font-size: 30px;
