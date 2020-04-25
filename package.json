@@ -1,0 +1,26 @@
+{
+  "name": "RSS-Virtual-Keyboard",
+  "version": "1.0.0",
+  "description": "Task - https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codejam-virtual-keyboard.md",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman-Yarinski/RSS-Virtual-Keyboard.git"
+  },
+  "keywords": [],
+  "author": "Roman Yarinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman-Yarinski/RSS-Virtual-Keyboard/issues"
+  },
+  "homepage": "https://github.com/Roman-Yarinski/RSS-Virtual-Keyboard#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}

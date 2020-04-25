@@ -1,0 +1,75 @@
+.keyboard_inner {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 550px);
+  display: grid;
+  grid-gap: 14px;
+  grid-template-areas:
+    "a a a a a a a a a a a a a a"
+    "a a a a a a a a a a a a a a"
+    "a a a a a a a a a a a a a a"
+    "a a a a a a a a a a a a a a";
+  background-color: black;
+  border-radius: 5%;
+  border: 5px solid black;
+}
+
+.key {
+  padding: 5px 30px 5px 5px;
+  height: 40px;
+  border-radius: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: #6fd672;
+  background-color: #000;
+  border-color: #6fd672;
+}
+
+.-active {
+  background-color: #205022;
+  color: #6fd675;
+  border-radius: 25%;
+  transition: 0.2s ease-in-out;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: rgba(46, 163, 83, 0.582);
+}
+
+.no-active {
+  background-color: black;
+  border-radius: 5%;
+  border: 5px solid black;
+}
+
+.textarea {
+  position: absolute;
+  padding: 5px 20px;
+  height: 230px;
+  width: 500px;
+  background: #287250;
+  border-radius: 5%;
+  margin: 30px;
+  left: calc(50% - 250px);
+  resize: none;
+  font-style: italic;
+  font-size: 15px;
+  border: 2px solid #205022;
+}
+
+.CapsLK {
+  color: #0ea113;
+}
+
+.keyboard_subTitel {
+  position: absolute;
+  top: 38%;
+  margin-top: 0;
+  left: calc(50% - 200px);
+  font-size: 30px;
+  color: #0ea113;
+}
